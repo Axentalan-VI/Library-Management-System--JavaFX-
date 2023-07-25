@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="1180.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="66.0" prefWidth="1180.0" style="-fx-background-color: #fed426;" text="Search Book" textFill="#0d0000">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </Label>
+      <TableView layoutX="19.0" layoutY="305.0" prefHeight="76.0" prefWidth="1140.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="Book ID" />
+            <TableColumn prefWidth="204.79409790039062" text="Book Title" />
+            <TableColumn prefWidth="123.99105834960938" text="Book Language" />
+            <TableColumn prefWidth="107.3759765625" text="Book Category" />
+            <TableColumn prefWidth="96.048583984375" text="Book Author" />
+            <TableColumn prefWidth="103.951416015625" text="Book Publisher" />
+            <TableColumn prefWidth="118.82733154296875" text="Book Publish Date" />
+            <TableColumn prefWidth="84.3031005859375" text="Book Price" />
+            <TableColumn prefWidth="120.9093017578125" text="Number of Pages" />
+            <TableColumn prefWidth="102.5" text="Available" />
+         </columns>
+      </TableView>
+      <Button layoutX="1029.0" layoutY="404.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #fed426#fed426;" text="Exit">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+      <MenuButton layoutX="590.0" layoutY="113.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="183.0" text="Search By">
+        <items>
+          <MenuItem mnemonicParsing="false" text="ID" />
+          <MenuItem mnemonicParsing="false" text="Title" />
+            <MenuItem mnemonicParsing="false" text="Language" />
+            <MenuItem mnemonicParsing="false" text="Category" />
+            <MenuItem mnemonicParsing="false" text="Author" />
+            <MenuItem mnemonicParsing="false" text="Publisher" />
+            <MenuItem mnemonicParsing="false" text="Publisher Date" />
+            <MenuItem mnemonicParsing="false" text="Price" />
+            <MenuItem mnemonicParsing="false" text="Number of Pages" />
+            <MenuItem mnemonicParsing="false" text="Available" />
+        </items>
+      </MenuButton>
+      <Label layoutX="329.0" layoutY="113.0" prefHeight="37.0" prefWidth="238.0" text="Choose the Element you want to search by " />
+      <TextField layoutX="463.0" layoutY="175.0" prefHeight="48.0" prefWidth="209.0" promptText="Enter Data" />
+      <DatePicker disable="true" layoutX="463.0" layoutY="186.0" prefHeight="37.0" prefWidth="209.0" />
+   </children>
+</Pane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="517.0" spacing="10.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="45.0" prefWidth="615.0" style="-fx-background-color: #fed426;" text="Add Book">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </Label>
+      <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="39.0" prefWidth="264.0" style="-fx-background-color: white;" text="Book Information" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="471.0" prefWidth="485.0" spacing="10.0" style="-fx-background-color: white;" VBox.vgrow="SOMETIMES">
+         <children>
+            <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="276.0" promptText="Book ID" />
+            <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="276.0" promptText="Book Title" />
+            <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="276.0" promptText="Book Language" />
+            <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="276.0" promptText="Book Category" />
+            <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="276.0" promptText="Book Author" />
+            <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="276.0" promptText="Book Publisher" />
+            <DatePicker prefHeight="35.0" prefWidth="276.0" promptText="Book Publish Date" />
+            <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="276.0" promptText="Book Price" />
+            <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="276.0" promptText="Number Of Pages" />
+            <CheckBox mnemonicParsing="false" prefHeight="29.0" prefWidth="276.0" text="Available">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </CheckBox>
+            <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="184.0" style="-fx-background-color: #fed426;" text="ADD">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label prefHeight="23.0" prefWidth="391.0" text="Label" textAlignment="CENTER" />
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </VBox>
+      <HBox alignment="BOTTOM_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="48.0" prefWidth="517.0" style="-fx-background-color: white;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #fed426#fed426;" text="Exit">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" right="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
